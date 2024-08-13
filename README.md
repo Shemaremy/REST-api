@@ -10,21 +10,26 @@
 
 
 
-2. Basics of HTTP
+2. Basics
 - HTTP Methods
-- GET, POST, PUT, DELETE, PATCH
+- GET, POST, PUT, DELETE
 - HTTP Status Codes
 - Request and Response Structure
-- Headers, Body, and URL
+- Params
+- Request body
+- Middleware
+- Object validation with joi package
 
 
 
 
 
-3. Getting started with practice for beginners
+3. Getting started with practice for beginners (create an express web server)
 - npm init --y : Initialise your whole repo
 - npm i express : Install the express framework
-- npm i --save-dev nodemon : This one restarts the server for  each change made
+- npm i --save-dev nodemon : This one restarts the server for  each change made (optional)
+    -> Instead of running our server using node index.js, we say: nodemon index.js
+    
 - Check the folder named Beginner
 
 
