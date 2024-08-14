@@ -12,8 +12,14 @@ Conditions to check :
 
 
 3. (HANDLING put REQUESTS) Have an array elements like the one above. The program will
-- Look up the course. If doesnt exist, throw a 401 not found error
-- If it exists, validate it. If its invalid, throw a 400 bad request 
-- Then update the course
+- Check the id requested in the params, if it doesnt exist throe an error. If that id exists,
+- Look up the course corresponing to that id. 
+- Then receives a new course name. If the name is invalid throw a 400 bad request.
+- But if it is valid, update the course then respond with the updated course array
 
 
+
+
+4. (HANDLING delete REQUESTS) Have the same as we have above. Now I want the server to remove / delete an element with the id same as the one in the route parameter
+- If that id is not found, throw an error.
+- If it was found delete and resend the new array

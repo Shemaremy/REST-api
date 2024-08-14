@@ -10,15 +10,18 @@
 
 
 
-2. Basics
+2. Basics / Beginner
 - HTTP Methods
 - GET, POST, PUT, DELETE
 - HTTP Status Codes
 - Request and Response Structure
 - Params
-- Request body
+- request in expressjs
+- response in expressjs
+- Request body in express js
 - Middleware
 - Object validation with joi package
+- Schema in express js
 
 
 
@@ -60,66 +63,4 @@
 
 
 
-
-5. Connecting to a Database
-- Introduction to Databases
-- SQL vs. NoSQL
-- Setting Up a Database
-- Example: MongoDB, PostgreSQL
-- Database Operations
-- Connecting, querying, and updating data
-
-
-
-6. Authentication and Authorization
-- Understanding Authentication
-- Basic authentication concepts
-- Implementing Authentication
-- Example: JWT (JSON Web Tokens), OAuth
-- Authorization
-- Role-based access control
-
-
-
-7. Testing and Debugging
-- Testing API Endpoints
-- Tools: Postman, Insomnia
-- Automated Testing
-- Introduction to unit and integration testing
-- Debugging Techniques
-- Common issues and how to resolve them
-
-
-
-
-8. Documentation and Best Practices
-- Documenting Your API
-- Importance of good documentation
-- Tools: Swagger, OpenAPI
-- API Versioning
-- Strategies for versioning your API
-- Best Practices
-- Consistent naming conventions
-- Handling large datasets
-- Security considerations
-
-
-
-
-9. Advanced Topics (Optional)
-- Rate Limiting
-- Implementing rate limits to protect your API
-- Caching
-- Basic caching strategies
-- Asynchronous Processing
-- Handling long-running tasks
-
-
-
-
-10. Project and Review
-- Building a Sample Project
-- Applying what you’ve learned in a real-world example
-- Code Review and Feedback
-- Reviewing your project and learning from feedback
 
